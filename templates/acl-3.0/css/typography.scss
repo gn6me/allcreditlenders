@@ -1,0 +1,13 @@
+// _typography.scss
+
+p {
+	font-size: 11pt;
+}
+
+a,a:visited {
+	color: #primary-color;
+	text-decoration: none;
+}
+a:hover {
+	color: $forange;
+}

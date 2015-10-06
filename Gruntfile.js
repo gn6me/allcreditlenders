@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
         concat: {
                 dist: {
-                    src: ['js/libs/*.js'],
+                    src: ['templates/acl-3.0/js/libs/*.js'],
                     dest: 'js/build/production.js',
                 },
 
@@ -13,8 +13,8 @@ module.exports = function(grunt) {
 
         uglify: {
                 build: {
-                    src: 'js/build/production.js',
-                    dest: 'js/production.min.js',
+                    src: 'templates/acl-3.0/js/build/production.js',
+                    dest: 'templates/acl-3.0/js/production.min.js',
                 },
         },
 
@@ -24,21 +24,21 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'css/build/global.css': 'css/global.scss'
+                    'templates/acl-3.0/css/build/global.css': 'css/global.scss'
                 },
             },
         },
 
         watch: {
             scripts: {
-                files: ['js/libs/*.js'],
+                files: ['templates/acl-3.0/js/libs/*.js'],
                 tasks: ['concat', 'uglify'],
                 options: {
                     spawn: false,
                 },
             },
             css: {
-                files: ['css/*.scss'],
+                files: ['templates/acl-3.0/css/*.scss'],
                 tasks: ['sass'],
                 options: {
                     spawn: false,
