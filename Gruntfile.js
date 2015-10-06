@@ -24,7 +24,7 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'templates/acl-3.0/css/build/global.css': 'css/global.scss'
+                    'templates/acl-3.0/css/build/global.css': 'templates/acl-3.0/css/global.scss'
                 },
             },
         },
