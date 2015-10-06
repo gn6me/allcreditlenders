@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,eAGG,CACA,MAAM,CAAE,CAAC,CACV,OAAO,CAAE,CAAC,CCJZ,IAAK,CACJ,KAAK,CAAE,IAAI,CAEZ,OAAQ,CACP,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,eAAe,CAAE,IAAI,CAEtB,UAAW,CACV,KAAK,CAAE,IAAI",
+"sources": ["../reset.scss","../template.scss"],
+"names": [],
+"file": "global.css"
+}
