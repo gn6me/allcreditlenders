@@ -20,7 +20,7 @@
 	<div class="topbar">
         <div class="container">
             <div class="col-md-2">
-                <img src="images/logo.png" />
+                <img src="../images/logo.png" />
             </div>
             <div class="col-md-10">
                 <!--<div class="col-md-12">
