@@ -36,9 +36,17 @@
         </div>
     </div>
     <div class="nav">
-        <div class="container">
-            <div class="col-md-12">
-                <jdoc:include type="modules" name="nav" />
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div id="navbar" class="collapse navbar-collapse">
+            <div class="container">
+                <div class="col-md-12">
+                    <jdoc:include type="modules" name="nav" />
+                </div>
             </div>
         </div>
     </div>
