@@ -84,5 +84,7 @@
 .content {}
 #sidebar .custom {
 	padding-bottom: 10px;
-	border-bottom: 1px solid #ccc;
+	@include border-radius(7px);
+	border: 1px solid transparent;
+	background: #eee;
 }
