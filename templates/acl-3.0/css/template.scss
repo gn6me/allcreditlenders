@@ -49,8 +49,16 @@
 	text-decoration: none;
 }
 
-/*.nav .in ul li {
+.nav .in ul {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.nav .in ul li {
 	float: none;
+	display: block;
+	width: 100%;
 }
 .nav .in ul li a {
 	width: 100%;
@@ -59,7 +67,7 @@
 }
 .nav .in ul li a:hover {
 	background: $secondary-color;
-}*/
+}
 
 .icon-bar { background-color: #fff; }
 
