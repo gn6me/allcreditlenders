@@ -120,8 +120,9 @@
 	border-bottom-color: #8e7b15;
 }
 
-.imgbar {
-	background: url(../images/acl-family.jpg) no-repeat;
+.imgbar img {
+	position: relative;
+	z-index: -1;
 }
 
 .content {}

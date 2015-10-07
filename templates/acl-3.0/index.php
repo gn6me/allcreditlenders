@@ -62,7 +62,7 @@
             <div class="col-md-12">
                 <div class="imgbar">
                     <jdoc:include type="modules" name="top" style="xhtml" />
-                    <!--<img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/acl-family.jpg" class="img-responsive" width="100%" />-->
+                    <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/acl-family.jpg" class="img-responsive" width="100%" />
                 </div>
             </div>
         </div>
