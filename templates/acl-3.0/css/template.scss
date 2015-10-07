@@ -51,7 +51,7 @@
 
 /* Button Styles */
 
-.m-btn,.a-btn {
+.m-btn,.a-btn,.g-btn {
 	padding: 12px 20px;
 	margin: 10px 10px 0 0;
 	border: none;
@@ -63,7 +63,9 @@
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease, webkit-transform 0.3s ease;
 }
-
+.g-btn {
+	background: $primary-color;
+}
 .m-btn {
 	background: $forange;
   	border-bottom-color: #a94436;
