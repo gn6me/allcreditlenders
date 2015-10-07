@@ -122,14 +122,18 @@
 
 .imgbar {
 	max-height: 297px;
+	padding-top: 60px;
 }
 .imgbar img {
 	position: relative;
 	z-index: -1;
-	bottom: 326px;
+	bottom: 259px;
 }
 .imgbar label {
 	color: #fff;
+}
+.imgbar .row {
+	margin-bottom: 35px;
 }
 
 .content {}
