@@ -7,6 +7,9 @@ $font-color: #333;
 $forange: #e7503c;
 $fyellow: #cfb836;
 
+/* Class Styles */
+$red: #bc2c18;
+
 @mixin border-radius($radius) {
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
