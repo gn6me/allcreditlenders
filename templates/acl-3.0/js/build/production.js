@@ -12,8 +12,7 @@ $(function() {
                 position: 'fixed',
                 top: 0,
                 left: nav.offset().left,
-                width: nav.width(),
-                z-index: 999
+                width: nav.width()
             });
             isFixed = true;
         }
