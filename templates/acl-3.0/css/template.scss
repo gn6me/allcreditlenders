@@ -70,7 +70,7 @@
 	background: $secondary-color;
 }
 
-.icon-bar { background-color: #fff; }
+.icon-bar { z-index: 1000;background-color: #fff; }
 
 /* Button Styles */
 
