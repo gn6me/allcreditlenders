@@ -49,6 +49,18 @@
 	text-decoration: none;
 }
 
+.nav .in ul li {
+	float: none;
+}
+.nav .in ul li a {
+	width: 100%;
+	display: block;
+	background: $primary-color;
+}
+.nav .in ul li a:hover {
+	background: $secondary-color;
+}
+
 .icon-bar { background-color: #fff; }
 
 /* Button Styles */
