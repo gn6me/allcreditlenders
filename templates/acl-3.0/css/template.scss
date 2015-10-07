@@ -42,34 +42,37 @@
 	color: #fff;
 	font-weight: bold;
 	border-bottom: 4px solid transparent;
-	transition: border 0.3s ease;
-	-webkit-transition: border 0.3s ease, webkit-transform 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-transition: allr 0.3s ease, webkit-transform 0.3s ease;
 }
 .nav ul li a:hover {
 	border-bottom: 4px solid $secondary-color;
 	text-decoration: none;
 }
 
+.collapse.in {
+	position: relative;
+	z-index: 1000;
+}
 .nav .in ul {
 	display: block;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	z-index: 1000;
 }
 .nav .in ul li {
 	float: none;
 	display: block;
 	width: 100%;
-	z-index: 1000;
 }
 .nav .in ul li a {
 	width: 100%;
 	display: block;
+	border: none;
 	background: $primary-color;
-	z-index: 1000;
 }
 .nav .in ul li a:hover {
+	border: none;
 	background: $secondary-color;
 }
 
