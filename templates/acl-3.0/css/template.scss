@@ -120,9 +120,16 @@
 	border-bottom-color: #8e7b15;
 }
 
+.imgbar {
+	max-height: 297px;
+}
 .imgbar img {
 	position: relative;
 	z-index: -1;
+	bottom: 326px;
+}
+.imgbar label {
+	color: #fff;
 }
 
 .content {}
