@@ -1,5 +1,5 @@
 /*
-Error: Invalid CSS after "...n border-radius": expected "{", was ":(7px);"
+Error: Invalid CSS after "... border-radius(": expected variable (e.g. $foo), was "7px);"
         on line 140 of templates/acl-3.0/css/template.scss
         from line 21 of templates/acl-3.0/css/global.scss
 
@@ -8,7 +8,7 @@ Error: Invalid CSS after "...n border-radius": expected "{", was ":(7px);"
 137: footer {
 138: 	padding: 10px;
 139: 	background: #eee;
-140: 	@mixin border-radius:(7px);
+140: 	@mixin border-radius(7px);
 141: 	border: 1px solid transparent;
 142: }
 
@@ -16,10 +16,14 @@ Backtrace:
 templates/acl-3.0/css/template.scss:140
 templates/acl-3.0/css/global.scss:21
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1098:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1093:in `tok!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:638:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:231:in `mixin_directive'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/lexer.rb:221:in `expected!'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/parser.rb:578:in `assert_tok'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/parser.rb:426:in `block in defn_arglist!'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/parser.rb:425:in `loop'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/parser.rb:425:in `defn_arglist!'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/parser.rb:121:in `parse_mixin_definition_arglist'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1024:in `sass_script'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:229:in `mixin_directive'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:219:in `special_directive'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:194:in `directive'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:658:in `block_child'
@@ -69,4 +73,4 @@ C:/Ruby22-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...n border-radius\": expected \"{\", was \":(7px);\"\A         on line 140 of templates/acl-3.0/css/template.scss\A         from line 21 of templates/acl-3.0/css/global.scss\A \A 135: }\A 136: \A 137: footer {\A 138: 	padding: 10px;\A 139: 	background: #eee;\A 140: 	@mixin border-radius:(7px);\A 141: 	border: 1px solid transparent;\A 142: }"; }
+  content: "Error: Invalid CSS after \"... border-radius(\": expected variable (e.g. $foo), was \"7px);\"\A         on line 140 of templates/acl-3.0/css/template.scss\A         from line 21 of templates/acl-3.0/css/global.scss\A \A 135: }\A 136: \A 137: footer {\A 138: 	padding: 10px;\A 139: 	background: #eee;\A 140: 	@mixin border-radius(7px);\A 141: 	border: 1px solid transparent;\A 142: }"; }

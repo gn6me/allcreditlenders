@@ -137,6 +137,6 @@
 footer {
 	padding: 10px;
 	background: #eee;
-	@mixin border-radius:(7px);
+	@mixin border-radius(7px);
 	border: 1px solid transparent;
 }
