@@ -43,7 +43,7 @@
 	font-weight: bold;
 	border-bottom: 4px solid transparent;
 	transition: all 0.3s ease;
-	-webkit-transition: allr 0.3s ease, webkit-transform 0.3s ease;
+	-webkit-transition: all 0.3s ease, webkit-transform 0.3s ease;
 }
 .nav ul li a:hover {
 	border-bottom: 4px solid $secondary-color;
