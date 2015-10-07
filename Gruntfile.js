@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         concat: {
                 dist: {
                     src: ['templates/acl-3.0/js/libs/*.js'],
-                    dest: 'js/build/production.js',
+                    dest: 'templates/acl-3.0/js/build/production.js',
                 },
 
         },
