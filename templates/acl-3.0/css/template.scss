@@ -61,11 +61,13 @@
 	float: none;
 	display: block;
 	width: 100%;
+	z-index: 1000;
 }
 .nav .in ul li a {
 	width: 100%;
 	display: block;
 	background: $primary-color;
+	z-index: 1000;
 }
 .nav .in ul li a:hover {
 	background: $secondary-color;
