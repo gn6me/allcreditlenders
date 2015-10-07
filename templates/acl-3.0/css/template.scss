@@ -67,6 +67,10 @@
 	background: $primary-color;
 	border-bottom-color: $secondary-color;
 }
+.g-btn:hover {
+	color: #fff;
+	background: $secondary-color;
+}
 .m-btn {
 	background: $forange;
   	border-bottom-color: #a94436;
