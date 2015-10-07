@@ -1,5 +1,9 @@
 // _typography.scss
 
+#sidebar .custom h3 {
+	margin-top: 10px;
+}
+
 p {
 	font-size: 11pt;
 }
@@ -10,4 +14,8 @@ a,a:visited {
 }
 a:hover {
 	color: $forange;
+}
+
+label {
+	font-size: 10pt;
 }
