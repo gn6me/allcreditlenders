@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <div class="nav">
+    <div class="nav navbar-inverse">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
