@@ -5,6 +5,17 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php
+    $search = array('mootools', 'caption.js');
+    // remove the js files
+    foreach($this->_scripts as $key => $script) {
+        foreach($search as $findme) {
+            if(stristr($key, $findme) !== false) {
+                unset($this->_scripts[$key]);
+            }
+        }
+    }
+    ?>
 	<jdoc:include type="head" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
