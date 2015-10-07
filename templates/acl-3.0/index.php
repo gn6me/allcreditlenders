@@ -61,6 +61,9 @@
             </div>
         </div>
     </div>
+    <div class="imgbar">
+        <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/acl-family.jpg" />
+    </div>
     <div class="container content">
         <div class="row">
             <div class="col-md-4">
