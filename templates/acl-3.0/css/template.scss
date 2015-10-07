@@ -94,11 +94,22 @@
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease, webkit-transform 0.3s ease;
 }
-.g-btn {
+.g-btn-big {
+	padding: 12px 20px;
+	border: none;
+	@include border-radius(7px);
+	border-bottom: 4px solid transparent;
+	color: #fff;
+	font-size: 15pt;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease, webkit-transform 0.3s ease;
+}
+.g-btn,.g-btn-big {
 	background: $primary-color;
 	border-bottom-color: $secondary-color;
 }
-.g-btn:hover {
+.g-btn:hover,.g-btn-big {
 	color: #fff;
 	background: #1f7234;
 	border-bottom-color: #105021;
