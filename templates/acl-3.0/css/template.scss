@@ -67,6 +67,13 @@
 	transition:             0.2s opacity ease-in, 0s left linear 0.22s;
 
 }
+.nav ul ul li {
+	float: none;
+}
+.nav ul ul a {
+	width: 200px;
+	padding: 7px;
+}
 .nav ul li a:hover ul {
 	display:				block;
 	position: 				relative;
