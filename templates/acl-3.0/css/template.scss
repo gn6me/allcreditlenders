@@ -94,11 +94,6 @@
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease, webkit-transform 0.3s ease;
 }
-@media screen and (min-width: 768px) {
-	.g-btn-big {
-		font-size: 10pt;
-	}
-}
 .g-btn-big {
 	padding: 12px 35px;
 	border: none;
@@ -109,6 +104,11 @@
 	font-weight: bold;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease, webkit-transform 0.3s ease;
+}
+@media screen and (min-width: 768px) {
+	.g-btn-big {
+		font-size: 10pt;
+	}
 }
 .g-btn,.g-btn-big {
 	background: $primary-color;
