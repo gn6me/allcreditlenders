@@ -29,7 +29,7 @@
 </head>
 <body>
 	<div id="fixed-navbar" class="nav">
-        <div class="container">
+        <div class="container nav">
             <div class="col-md-2">
                 <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/logo.png" />
             </div>

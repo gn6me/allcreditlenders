@@ -2,13 +2,13 @@
 
 /* Navigation Styles */
 
+#fixed-navbar { border-bottom: 1px solid #ddd; }
 .nav {
 	width: 100%;
 	font-size: 10pt;
   	color: #fff;
   	font-weight: bold;
   	z-index: 999;
-  	border-bottom: 1px solid #ddd;
   	background: #fff;
 }
 .nav ul {
@@ -128,7 +128,7 @@
 .imgbar {
 	float: left;
 	width: 100%;
-	background: $primary-color url('https://allcreditlenders.net/templates/acl-3.0/images/footer_lodyas.png');
+	background: $primary-color;
 	background-size: 100%;
 }
 .imgbar label {
