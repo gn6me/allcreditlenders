@@ -1,7 +1,7 @@
 $(function() {
     // Stick the #nav to the top of the window
     var nav = $('#fixed-navbar');
-    var navHomeY = nav.offset().top + 100;
+    var navHomeY = nav.offset().top + 700;
     var isFixed = false;
     var $w = $(window);
     $w.scroll(function() {
