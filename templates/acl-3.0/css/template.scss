@@ -149,6 +149,8 @@
 	margin-bottom: 5px;
 	color: #fff;
 	background: $secondary-color;
+	border-color: #246635;
+	@include border-radius(none);
 }
 .imgbar .checkbox {
 	color: #fff;
