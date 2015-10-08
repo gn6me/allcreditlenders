@@ -61,7 +61,7 @@
     </div>
     <div class="container content">
         <div class="row">
-            <div class="imgbar">
+            <!--<div class="imgbar">
                 <div class="col-md-12">
                     <div class="col-md-6">
                         <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/get-cash-now.png" class="img-responsive" style="max-width: 350px;" />
@@ -70,7 +70,7 @@
                         <jdoc:include type="modules" name="top" style="xhtml" />
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
         <div class="row">
             <div class="col-md-8">
