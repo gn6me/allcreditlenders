@@ -54,7 +54,11 @@
             <span class="icon-bar"></span>
         </button>
         <div id="navbar" class="collapse navbar-collapse">
+            <div class="container">
+                <div class="col-md-12">
                     <jdoc:include type="modules" name="nav" />
+                </div>
+            </div>
         </div>
     </div>
     <div class="container content">
