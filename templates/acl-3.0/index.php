@@ -37,7 +37,7 @@
                 <!--<div class="col-md-12">
                     <p class="pull-right">847-836-8593 | internet@cp.allcreditlenders.net</p>
                 </div>-->
-                <div class="col-md-8">
+                <div class="col-md-7">
                     <div id="fixed-navbar">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="pull-right">
                         <button class="m-btn">Members</button>
                         <button class="a-btn">Apply Now!</button>
