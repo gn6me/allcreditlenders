@@ -67,14 +67,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <div id="sidebar">
-                    <jdoc:include type="modules" name="sidebar" style="xhtml" />
-                </div>
-            </div>
             <div class="col-md-8">
                 <div id="content">
                     <jdoc:include type="component" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="sidebar">
+                    <jdoc:include type="modules" name="sidebar" style="xhtml" />
                 </div>
             </div>
         </div>
