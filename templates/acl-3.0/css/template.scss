@@ -31,11 +31,15 @@
 	float: left;
 	margin: 0;
 }
+.nav ul li a:first-child {
+	border-left: 1px solid #ccc;
+}
 .nav ul li a {
 	display: block;
 	padding: 15px 15px 11px 15px;
 	color: #333;
 	font-weight: bold;
+	border-right: 1px solid #ccc;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease, webkit-transform 0.3s ease;
 }
