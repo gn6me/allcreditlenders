@@ -33,28 +33,23 @@
             <div class="col-md-2">
                 <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/logo.png" />
             </div>
-            <div class="col-md-10">
-                <!--<div class="col-md-12">
-                    <p class="pull-right">847-836-8593 | internet@cp.allcreditlenders.net</p>
-                </div>-->
-                <div class="col-md-7">
-                    <div>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div id="navbar" class="collapse navbar-collapse">
-                            <jdoc:include type="modules" name="nav" />
-                        </div>
+            <div class="col-md-7">
+                <div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <jdoc:include type="modules" name="nav" />
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="pull-right">
-                        <button class="m-btn">Members</button>
-                        <button class="a-btn">Apply Now!</button>
-                    </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pull-right">
+                    <button class="m-btn">Members</button>
+                    <button class="a-btn">Apply Now!</button>
                 </div>
             </div>
         </div>
