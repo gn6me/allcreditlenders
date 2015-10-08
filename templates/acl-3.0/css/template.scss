@@ -137,15 +137,8 @@
 }
 
 .imgbar {
-	max-height: 297px;
-	padding-top: 20px;
-	background: url(/templates/acl-3.0/images/acl-family.jpg) no-repeat;
+	background: $primary-color;
 	background-size: 100%;
-}
-.imgbar img {
-	position: relative;
-	z-index: -1;
-	bottom: 330px;
 }
 .imgbar label {
 	color: #fff;
@@ -162,11 +155,11 @@
 	margin-bottom: 35px;
 }
 
-.content {
+/*.content {
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
+}*/
 .content:before, .content:after
 {
     content:"";

@@ -65,8 +65,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="imgbar">
-                    <jdoc:include type="modules" name="top" style="xhtml" />
-                    <!--<img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/acl-family.jpg" class="img-responsive" width="100%" />-->
+                    <div class="col-md-6">
+                        <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/13258-a-hand-holding-money-pv" class="img-responsive" width="100%" />
+                    </div>
+                    <div class="col-md-6">
+                        <jdoc:include type="modules" name="top" style="xhtml" />
+                    </div>
                 </div>
             </div>
         </div>
