@@ -139,7 +139,7 @@
 .imgbar {
 	float: left;
 	width: 100%;
-	background: $primary-color;
+	background: $primary-color url('https://allcreditlenders.net/templates/acl-3.0/images/footer_lodyas.png');
 	background-size: 100%;
 }
 .imgbar label {
@@ -153,7 +153,6 @@
 	border-color: #246635;
 	@include border-radius(0);
 }
-.imgbar input:focus { padding: 23px 17px; }
 .imgbar .checkbox {
 	color: #fff;
 	font-size: 12pt;
