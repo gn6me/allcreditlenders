@@ -46,7 +46,7 @@
 
 /** SUB MENUS **/
 
-.menu ul {
+.menu a ul {
 	display: 				none;
 	position: 				absolute;
 	z-index: 				80;
@@ -75,9 +75,12 @@
 	padding: 7px;
 }
 .menu a:hover ul {
-	display:				block;
-	position: 				relative;
+	display: block;
+	position: relative;
 }
+
+/** MOBILE MENUS **/
+
 .collapse.in {
 	position: relative;
 	z-index: 1000;
