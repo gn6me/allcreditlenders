@@ -100,13 +100,13 @@
 	}
 }
 .g-btn,.g-btn-big {
-	background: $primary-color;
-	border-bottom-color: $secondary-color;
+	background: $forange;
+	border-bottom-color: #a94436;
 }
 .g-btn:hover,.g-btn-big:hover {
 	color: #fff;
-	background: #1f7234;
-	border-bottom-color: #105021;
+	background: #bf3d2b;
+	border-bottom-color: #912c1f;
 }
 .m-btn {
 	background: $forange;
@@ -152,6 +152,9 @@
 }
 .imgbar .row {
 	margin-bottom: 35px;
+}
+.imgbar .row:last-child {
+	margin: 0;
 }
 
 /*.content {
