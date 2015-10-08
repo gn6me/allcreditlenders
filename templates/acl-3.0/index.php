@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/acl-3.0/css/build/global.css">
 </head>
 <body>
-	<div class="topbar">
+	<div id="fixed-navbar" class="nav">
         <div class="container nav">
             <div class="col-md-2">
                 <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/logo.png" />
@@ -38,7 +38,7 @@
                     <p class="pull-right">847-836-8593 | internet@cp.allcreditlenders.net</p>
                 </div>-->
                 <div class="col-md-7">
-                    <div id="fixed-navbar">
+                    <div>
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
