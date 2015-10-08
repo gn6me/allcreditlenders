@@ -146,12 +146,14 @@
 	color: #fff;
 }
 .imgbar input {
+	padding: 20px 15px;
 	margin-bottom: 5px;
 	color: #fff;
 	background: $secondary-color;
 	border-color: #246635;
-	@include border-radius(none);
+	@include border-radius(0);
 }
+.imgbar input:focus { padding: 23px 17px; }
 .imgbar .checkbox {
 	color: #fff;
 	font-size: 12pt;
