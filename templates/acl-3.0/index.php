@@ -63,8 +63,8 @@
     </div>
     <div class="container content">
         <div class="row">
-            <div class="col-md-12">
-                <div class="imgbar">
+            <div class="imgbar">
+                <div class="col-md-12">
                     <div class="col-md-6">
                         <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/13258-a-hand-holding-money-pv" class="img-responsive" width="100%" />
                     </div>
