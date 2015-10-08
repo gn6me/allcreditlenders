@@ -139,7 +139,8 @@
 .imgbar {
 	float: left;
 	width: 100%;
-	background: $primary-color;
+	max-height: 335px;
+	background: $secondary-color;
 	background-size: 100%;
 }
 .imgbar label {
