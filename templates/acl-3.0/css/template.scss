@@ -43,13 +43,16 @@
 .nav img {
 	padding: 5px 0 5px 30px;
 }
-.nav ul ul li a,nav ul ul li a:visited {
+.nav ul ul li a,.nav ul ul li a:visited {
 	width: 250px;
 	display: block;
 	padding: 10px 15px;
 	text-decoration: none;
 	color: #fff;
 	background: $primary-color;
+}
+.nav ul ul li a,.nav ul ul li a:visited {
+	color: #fff;
 }
 
 
