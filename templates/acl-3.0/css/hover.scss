@@ -1,13 +1,5 @@
-/*!
- * Hover.css (http://ianlunn.github.io/Hover/)
- * Version: 2.0.2
- * Author: Ian Lunn @IanLunn
- * Author URL: http://ianlunn.co.uk/
- * Github: https://github.com/IanLunn/Hover
- * Made available under a MIT License:
- * http://www.opensource.org/licenses/mit-license.php
- * Hover.css Copyright Ian Lunn 2014. Generated with Sass.
- */
+// _hover.scss
+
 /* 2D TRANSITIONS */
 /* Grow */
 .hvr-grow {
@@ -1836,7 +1828,7 @@
   transition-timing-function: ease-out;
 }
 .hvr-radial-out a:hover, .hvr-radial-out a:focus, .hvr-radial-out a:active {
-  color: #fff;
+  background: $secondary-color;
 }
 .hvr-radial-out a:hover:before, .hvr-radial-out a:focus:before, .hvr-radial-out a:active:before {
   -webkit-transform: scale(2);
