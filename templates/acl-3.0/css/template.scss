@@ -52,7 +52,7 @@
 	background: $primary-color;
 	border: none;
 }
-.nav ul ul:first-child a { border: none; }
+.nav ul ul li:first-child a { border: none; }
 .nav ul ul li a:hover,.nav ul ul li a:visited:hover {
 	color: #fff;
 }
@@ -69,12 +69,12 @@
 	left: 0;
 	z-index: 99;
 	list-style-type:none;
-	-o-box-shadow:      2px 2px 3px #555;
-    -icab-box-shadow:   2px 2px 3px #555;
-    -khtml-box-shadow:  2px 2px 3px #555;
-    -moz-box-shadow:    2px 2px 3px #555;
-    -webkit-box-shadow: 2px 2px 3px #555;
-    box-shadow:         2px 2px 3px #555;
+	-o-box-shadow:      2px 2px 3px #333;
+    -icab-box-shadow:   2px 2px 3px #333;
+    -khtml-box-shadow:  2px 2px 3px #333;
+    -moz-box-shadow:    2px 2px 3px #333;
+    -webkit-box-shadow: 2px 2px 3px #333;
+    box-shadow:         2px 2px 3px #333;
 }
 .sf-menu > li {
 	float: left;
