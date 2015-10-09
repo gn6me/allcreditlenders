@@ -1823,6 +1823,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  color: #fff;
   background: $secondary-color;
   border-radius: 100%;
   -webkit-transform: scale(0);
@@ -1835,7 +1836,7 @@
   transition-timing-function: ease-out;
 }
 .hvr-radial-out a:hover, .hvr-radial-out a:focus, .hvr-radial-out a:active {
-  color: white;
+  color: #fff;
 }
 .hvr-radial-out a:hover:before, .hvr-radial-out a:focus:before, .hvr-radial-out a:active:before {
   -webkit-transform: scale(2);
