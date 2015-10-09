@@ -50,8 +50,9 @@
 	text-decoration: none;
 	color: #fff;
 	background: $primary-color;
+	border: none;
 }
-.nav ul ul li a:visited:hover {
+.nav ul ul li a:hover,.nav ul ul li a:visited:hover {
 	color: #fff;
 }
 
@@ -67,6 +68,12 @@
 	left: 0;
 	z-index: 99;
 	list-style-type:none;
+	-o-box-shadow:      2px 2px 3px #000;
+    -icab-box-shadow:   2px 2px 3px #000;
+    -khtml-box-shadow:  2px 2px 3px #000;
+    -moz-box-shadow:    2px 2px 3px #000;
+    -webkit-box-shadow: 2px 2px 3px #000;
+    box-shadow:         2px 2px 3px #000;
 }
 .sf-menu > li {
 	float: left;
