@@ -1790,7 +1790,7 @@
 }
 
 /* Radial Out */
-.hvr-radial-out a {
+.hvr-radial-out .sf-menu a {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -1807,7 +1807,7 @@
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-.hvr-radial-out a:before {
+.hvr-radial-out .sf-menu a:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -1827,10 +1827,10 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-radial-out a:hover, .hvr-radial-out a:focus, .hvr-radial-out a:active {
+.hvr-radial-out .sf-menu a:hover, .hvr-radial-out .sf-menu a:focus, .hvr-radial-out .sf-menu a:active {
   background: $secondary-color;
 }
-.hvr-radial-out a:hover:before, .hvr-radial-out a:focus:before, .hvr-radial-out a:active:before {
+.hvr-radial-out .sf-menu a:hover:before, .hvr-radial-out .sf-menu a:focus:before, .hvr-radial-out .sf-menu a:active:before {
   -webkit-transform: scale(2);
   transform: scale(2);
 }
