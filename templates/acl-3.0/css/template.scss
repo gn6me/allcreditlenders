@@ -44,39 +44,55 @@
 	padding: 5px 0 5px 30px;
 }
 
-/** SUB MENUS **/
-
-.nav>.menu>a>ul {
-	display: 				none;
-	position: 				absolute;
-	z-index: 				80;
-	color: 					#fff;
-	background: 			$primary-color;
-	-o-box-shadow: 			2px 2px 3px #000;
-	-icab-box-shadow: 		2px 2px 3px #000;
-	-khtml-box-shadow: 		2px 2px 3px #000;
-	-moz-box-shadow: 		2px 2px 3px #000;
-	-webkit-box-shadow: 	2px 2px 3px #000;
-	box-shadow: 			2px 2px 3px #000;
-	/*-moz-transition:        0.2s opacity ease-in, 0s left linear 0.22s;
-	-webkit-transition:     0.2s opacity ease-in, 0s left linear 0.22s;
-	-khtml-transition:      0.2s opacity ease-in, 0s left linear 0.22s;
-	-icab-transition:       0.2s opacity ease-in, 0s left linear 0.22s;
-	-ms-transition:         0.2s opacity ease-in, 0s left linear 0.22s;
-	-o-transition:          0.2s opacity ease-in, 0s left linear 0.22s;
-	transition:             0.2s opacity ease-in, 0s left linear 0.22s;*/
-
+.nav > ul > li > a,nav > ul > li > a:visited {
+	width: 106px;
+    height: 12px;
+	display: block;
+	padding: 15px 17px;
+	margin: 0 1px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	background: #009999 url(../img/menu-grad.png) bottom repeat-x;
+  font-size: 10px;
 }
-.nav ul ul li {
-	float: none;
-}
-.nav ul ul a {
+.nav ul ul li a,nav ul ul li a:visited {
 	width: 200px;
-	padding: 7px;
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #fff;
+	background: #009999 url(../img/menu-grad.png) bottom repeat-x;
 }
-.nav .menu>a:hover>ul {
+
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu li {
+	position: relative;
+}
+.sf-menu ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 99;
+	list-style-type:none;
+}
+.sf-menu > li {
+	float: left;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	display: block;
+}
+
+.sf-menu a {
 	display: block;
 	position: relative;
+}
+.sf-menu ul ul {
+	top: 0;
+	left: 100%;
 }
 
 /** MOBILE MENUS **/
