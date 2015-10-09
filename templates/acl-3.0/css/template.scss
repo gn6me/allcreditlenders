@@ -37,7 +37,7 @@
 	-webkit-transition: all 0.3s ease, webkit-transform 0.3s ease;
 }
 .nav ul li a:hover {
-	color: $primary-color;
+	background: $secondary-color;
 	text-decoration: none;
 }
 .nav img {
@@ -45,15 +45,15 @@
 }
 
 .nav > ul > li > a,nav > ul > li > a:visited {
-	width: 106px;
-    height: 12px;
+	width: 200px;
+    height: 15px;
 	display: block;
 	padding: 15px 17px;
 	margin: 0 1px;
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
-	background: #009999 url(../img/menu-grad.png) bottom repeat-x;
+	background: $primary-color;
   font-size: 10px;
 }
 .nav ul ul li a,nav ul ul li a:visited {
