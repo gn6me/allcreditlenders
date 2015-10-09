@@ -85,5 +85,16 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="<?php echo $this->baseurl ?>/templates/acl-3.0/js/production.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('ul.sf-menu').superfish({
+            delay:         300,                // the delay in milliseconds that the mouse can remain outside a submenu without it closing
+            animation:     {opacity:'show'},   // an object equivalent to first parameter of jQuery’s .animate() method. Used to animate the submenu open
+            animationOut:  {opacity:'hide'},   // an object equivalent to first parameter of jQuery’s .animate() method Used to animate the submenu closed
+            speed:         'normal',           // speed of the opening animation. Equivalent to second parameter of jQuery’s .animate() method
+            speedOut:      'fast',        
+        });
+    });
+</script>
 </body>
 </html>
