@@ -43,26 +43,13 @@
 .nav img {
 	padding: 5px 0 5px 30px;
 }
-
-.nav > ul > li > a,nav > ul > li > a:visited {
-	width: 200px;
-    height: 15px;
-	display: block;
-	padding: 15px 17px;
-	margin: 0 1px;
-	text-align: center;
-	color: #fff;
-	text-decoration: none;
-	background: $primary-color;
-  font-size: 10px;
-}
 .nav ul ul li a,nav ul ul li a:visited {
-	width: 200px;
+	width: 250px;
 	display: block;
 	padding: 10px 15px;
 	text-decoration: none;
 	color: #fff;
-	background: #009999 url(../img/menu-grad.png) bottom repeat-x;
+	background: $primary-color;
 }
 
 
