@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/acl-3.0/css/build/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.3.4/css/jquery.mmenu.all.min.css">
 </head>
 <body>
 	<div class="topbar">
@@ -30,6 +31,7 @@
                     <div class="pull-right">
                         <button class="m-btn">Members</button>
                         <button class="a-btn">Apply Now!</button>
+                        <button class="btn btn-white mobile"><a href="#menu" data-icon="bars" class="mobilemenu">Menu</a></button>
                     </div>
                 </div>
             </div>
@@ -42,6 +44,9 @@
             </div>
         </div>
     </div>
+    <nav id="menu">
+        <jdoc:include type="modules" name="nav" />
+    </nav>
     <div class="container content">
         <div class="row">
             <div class="col-md-4">
@@ -63,5 +68,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+            $(function() {
+                $('nav#menu').mmenu({
+                    extensions  : [ 'effect-slide-menu', 'pageshadow' ],
+                    searchfield : true,
+                    counters    : true,
+                    navbar      : {
+                        title       : 'Main Menu'
+                    },
+                    navbars     : [
+                        {
+                            position    : 'top',
+                            content     : [ 'searchfield' ]
+                        }, {
+                            position    : 'top',
+                            content     : [
+                                'prev',
+                                'title',
+                                'close'
+                            ]
+                        },
+                    ]
+                });
+            });
+    </script>
 </body>
 </html>

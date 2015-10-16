@@ -50,6 +50,10 @@
 	text-decoration: none;
 }
 
+@media screen and (min-width: 800px) {
+.mobilemenu { display: none; }
+}
+
 /* Button Styles */
 
 .m-btn,.a-btn {
