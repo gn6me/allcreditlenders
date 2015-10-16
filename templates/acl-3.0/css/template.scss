@@ -124,9 +124,17 @@
 
 .icon-bar { z-index: 1000;background-color: #fff; }
 
+@media screen and (min-width: 800px) {
+.mobilemenu { display: none; }
+}
+
 /* Button Styles */
 
+<<<<<<< HEAD
 .m-btn,.a-btn,.g-btn {
+=======
+.m-btn,.a-btn,.btn-green {
+>>>>>>> refs/remotes/origin/build
 	padding: 12px 20px;
 	margin: 10px 10px 0 0;
 	border: none;
@@ -173,6 +181,10 @@
 .a-btn:hover {
 	background: #ae9926;
 	border-bottom-color: #8e7b15;
+}
+.btn-green {
+	background: $primary-color;
+	border-bottom-color: $secondary-color;
 }
 
 .imgbar {
