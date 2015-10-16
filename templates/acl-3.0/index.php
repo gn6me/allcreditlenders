@@ -34,7 +34,6 @@
             <div class="col-md-2">
                 <img src="<?php echo $this->baseurl ?>/templates/acl-3.0/images/logo.png" />
             </div>
-<<<<<<< HEAD
             <div class="col-md-7">
                 <div>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
@@ -45,7 +44,6 @@
                     </button>
                     <div id="navbar" class="collapse navbar-collapse">
                         <jdoc:include type="modules" name="nav" />
-=======
             <div class="col-md-10">
                 <!--<div class="col-md-12">
                     <p class="pull-right">847-836-8593 | internet@cp.allcreditlenders.net</p>
@@ -55,7 +53,6 @@
                         <button class="m-btn">Members</button>
                         <button class="a-btn">Apply Now!</button>
                         <button class="btn btn-white mobile"><a href="#menu" data-icon="bars" class="mobilemenu">Menu</a></button>
->>>>>>> refs/remotes/origin/build
                     </div>
                 </div>
             </div>
@@ -100,7 +97,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<<<<<<< HEAD
     <script src="<?php echo $this->baseurl ?>/templates/acl-3.0/js/production.min.js"></script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
@@ -113,7 +109,6 @@
         });
     });
 </script>
-=======
     <script type="text/javascript">
             $(function() {
                 $('nav#menu').mmenu({
@@ -139,6 +134,5 @@
                 });
             });
     </script>
->>>>>>> refs/remotes/origin/build
 </body>
 </html>
